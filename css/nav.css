@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "BrushUp";
+  src: url(../Brush\ Up\ Too\ W01\ Regular.ttf);
+}
+
+@font-face {
+  font-family: "Serifa";
+  src: url(SerifaStd-Black.otf);
+}
+.menu-container {
+  height: 100px;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.25rem 1rem !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+  border: 3px solid black;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-image: url(wooden.png);
+  background-color: #f9c584 !important;
+  box-shadow: 0 0.5rem 1rem #333;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.display-4,
+span,
+.span-nav {
+  font-family: "BrushUp";
+  color: black;
+  font-weight: 700;
+  margin: auto auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Roboto";
+  color: #333;
+  background-color: #fae1c1;
+}
+
+.nav-item {
+  width: 19%;
+  max-height: 45px;
+  margin: 0 auto;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.m-auto {
+  margin-right: 0 !important;
+  width: 100%;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+}
